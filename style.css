@@ -1,0 +1,50 @@
+body {
+    margin: 0px;
+}
+
+* {
+    outline: 0px solid red;
+}
+
+#game-area {
+    height: 500px;
+    width: 500px;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#pacman {
+    color: yellow;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 2px;
+    margin: 0px;
+    height: 45px;
+    width: 45px;
+}
+
+#test {
+    color: yellow;
+}
+
+svg {
+    height: 45px;
+    width: 45px;
+}
+
+#score-board {
+    display: flex;
+    gap: 10px;
+    font-size: 50px;
+}
+
+#box15, #box16, #box25, #box26, #box42, #box43, #box52, #box53, #box48, #box49, #box58, #box59, #box75, #box76, #box85, #box86 {
+    background-color: rgb(81, 81, 161);
+    outline: 2px solid blue;
+}
+
+#ghost1, #ghost2, #ghost3, #ghost4 {
+    position: absolute;
+}
